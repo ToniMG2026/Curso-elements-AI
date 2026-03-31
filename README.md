@@ -27,10 +27,10 @@ Describe the process of using the solution. In what kind situations is the solut
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![image of a cat](/gato.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="![image of a cat](/gato.jpg)" width="300">
 
 This is how you create code examples:
 ```
@@ -75,5 +75,5 @@ How could your project grow and become something even more? What kind of skills,
 * list here the sources of inspiration 
 * do not use code, images, data etc. from others without permission
 * when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+  <br>For example: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 * etc
