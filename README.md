@@ -24,13 +24,23 @@ def predict_price(features, weights, bias):
     z = np.dot(features, weights) + bias
     return np.maximum(0, z) # ReLU activation
 
-Data sources and AI methodsThe data is sourced from public real estate listings and historical sales records.Method: A Multi-Layer Perceptron (MLP) neural network.Activations: ReLU for hidden layers to capture non-linear relationships and Linear activation for the output layer.LayerTypeActivationInput5 NodesN/AHidden2 Dense LayersReLUOutput1 NodeLinearChallengesThe project does not account for subjective "charm" or the specific condition of interior finishes. Ethical considerations include the risk of automated systems reinforcing historical pricing biases or being used by large corporations to out-compete local buyers.What next?The next step is integrating Computer Vision to analyze photos of the cabins, allowing the AI to "see" the quality of the view or the modernness of the kitchen. I would need to improve my skills in Convolutional Neural Networks (CNNs) to achieve this.AcknowledgmentsInspired by the Elements of AI curriculum.Logic structures based on the Building AI course exercises.Sleeping Cat on Her Back by Umberto Salvagnin / CC BY 2.0
+Data sources and AI methods
+The data is sourced from public real estate listings and historical sales records.
+Method: A Multi-Layer Perceptron (MLP) neural network.
+Activations: ReLU for hidden layers to capture non-linear relationships and Linear activation for the output layer.
+Layer            Type                Activation
+Input            5 Nodes             N/A
+Hidden           2 Dense Layers      ReLU
+Output           1 Node              Linear
+
+Challenges
+The project does not account for subjective "charm" or the specific condition of interior finishes. Ethical considerations include the risk of automated systems reinforcing historical pricing biases or being used by large corporations to out-compete local buyers.
+
+What next?
+The next step is integrating Computer Vision to analyze photos of the cabins, allowing the AI to "see" the quality of the view or the modernness of the kitchen. I would need to improve my skills in Convolutional Neural Networks (CNNs) to achieve this.
+Acknowledgments
+Inspired by the Elements of AI curriculum.
+Logic structures based on the Building AI course exercises.
+Sleeping Cat on Her Back by Umberto Salvagnin / CC BY 2.0
 ---
 
-### A few tips for your GitHub setup:
-
-* **The Pen Icon:** When you're in your repository on GitHub, click the **README.md** file, then click the small pencil icon in the top right to enter "Edit" mode.
-* **Commit Changes:** After pasting the code, scroll to the bottom, write a short message like "Initial project plan draft," and click **Commit changes**.
-* **Images:** If you have a specific diagram you made, upload it to your GitHub repo first. Then, change the image link in the markdown from the `https://...` URL to just the filename (e.g., `![My Diagram](my_diagram.png)`).
-
-How does this look for your project idea? If you have a different topic in mind (like a movie recommend
