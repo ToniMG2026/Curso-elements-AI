@@ -15,8 +15,7 @@ My motivation stems from a personal interest in real estate transparency and the
 ## How is it used?
 The solution is designed for property owners and real estate agents. A user enters cabin attributes (square footage, number of rooms, distance to water) into a simple interface. The model then performs a forward pass to return a predicted price.
 
-![Cabin Architecture]((https://www.freepik.com/free-photo/abstract-futuristic-digital-technology-background_15665059.htm#fromView=keyword&page=1&position=1&uuid=f649c483-303d-4083-b781-dd19ace98c4f&query=Neural+network+diagram)
-*Note: You can replace the URL above with a diagram of your neural network layers once uploaded to GitHub.*
+![Cabin Architecture](https://media.istockphoto.com/id/2084953046/es/foto/nodos-de-redes-neuronales-aprendizaje-profundo-inteligencia-artificial-modelo-de-aprendizaje.jpg?s=2048x2048&w=is&k=20&c=YSnr7tSqXFuEf54cweHn98dVYKtSpn3SFROm0ClI4II=)
 
 Example of the prediction logic:
 ```python
